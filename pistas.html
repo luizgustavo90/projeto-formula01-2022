@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resumo do fim de semana - F1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+            <header>
+                    <img src="Imagens/f1-logo-150.png" alt="Formula 1 Logo">
+                    <h1>Fórmula 01 - Temporada: 2022</h1>
+                    <p>Pistas: confira as principais pistas históricas e suas curiosidades</p>
+
+            </header>
+
+            <nav>
+                <a href="corridas.html">Corridas 2022</a>
+                <a href="equipes.html">Equipes</a>
+                <a href="pistas.html">Pistas históricas</a>
+                <a href="piloto.html">Quem foi o melhor?</a>
+            </nav>
+
+    <body>
+        
+            <main>
+                <h2>
+                    As Pistas mais tradicionais da F1:
+                </h2>    
+                
+                <div>
+                    <p>Escolha uma pista na caixa de seleção e tenha acesso as principais informações:</p>
+                    <select name="flista" id="flista" size>
+                            <option id="fpista" value="Melbourne">Melbourne</option>
+                            <option id="fpista" value="Suzuka">Suzuka</option>
+                            <option id="fpista" value="Mônaco">Mônaco</option>                           
+                            <option id="fpista" value="Monza">Monza</option>
+                            <option id="fpista" value="Silverstone">Silverstone</option>
+                            <option id="fpista" value="Hockenhein">Hockenhein</option>
+                            <option id="fpista" value="Interlagos">Interlagos</option>
+                            <option id="fpista" value="Spa-Francorchamps">Spa-Francorchamps</option>
+                    </select>
+                    <input type="button" value="Confirmar" onclick="escolher()">
+
+                </div>
+
+                <div id="res">
+                    <p>Escolha a pista e veja o resultado</p>
+
+                </div>
+
+                <div id="foto">
+                     <img id="imagem" src="Imagens_pistas/padrao_450.png" alt="Foto da pista">
+                     <img id="imagem2" src="">
+
+                </div>
+                 
+
+                
+
+                 
+             </main>
+             
+
+    </body>
+    <script src="script2.js"></script>
+
+
+    <footer>
+        <p>Criado por Luiz Gustavo - exclusivamente para fins de estudo</p>
+    </footer>
+
+</html>
+

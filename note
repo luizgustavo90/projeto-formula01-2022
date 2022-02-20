@@ -1,0 +1,33 @@
+
+    //ternary operator
+
+    const isMelbourn = pista.value === "melbourne" ? "sim" : "nao";
+
+    //switch
+    // if(pista.value === "melbourne")
+    // {
+        nomep = pista.value
+        res.innerHTML = `<p><strong>${nomep}</strong></p><p><strong>Capacidade:${capacidades[nomep]}</strong>`
+    // }
+
+
+
+
+
+
+<main>
+                <h2>
+                    Equipes 2022:
+                </h2>    
+                
+                    <img src="Imagens/tabela-pilotos_full.PNG" alt="tabela de pilotos">
+                 <p class="tabela">Tabela completa: <a href="https://www.formula1.com/en/results.html/2021/drivers.html" target="_blank">clique aqui</a></p>
+
+                <h2>
+                    Classificação geral de equipes:
+                </h2>
+
+                    <img src="Imagens/tabela-equipes-geral_full.PNG" alt="tabela geral">
+                 <p class="tabela">Tabela completa: <a href="https://www.formula1.com/en/teams.html" target="_blank">clique aqui</a></p>
+             </main>
+             

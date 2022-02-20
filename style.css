@@ -1,0 +1,195 @@
+@charset "UTF-8";
+
+@font-face{
+    font-family:'formula1';
+    src: url('Fontes/infinityformulaital.ttf') format('truetype');
+    font-weight: normal;
+    font-size: 1em;
+}
+
+:root{
+    --cor0:#e10600;
+    --cor1:#e07777;
+    --cor2:white;
+    --cor3:black;
+    --fonte-destaque: 'formula1';
+}
+
+nav{
+
+    text-align: center;
+    margin-bottom: 15px;
+
+}
+
+nav>a{
+    background-color: white;
+    color: var(--cor0);
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition-duration: 0.5s;
+    padding: 7px;
+   
+   
+    
+
+}
+
+nav>a:hover{
+    color: white;
+    background-color: var(--cor0);
+
+
+}
+
+h1{
+    font-family:'formula1';
+    color: var(--cor0);
+    text-align: center;
+
+
+}
+
+h2{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:white;
+    font-style: oblique;
+    font-weight: bold;
+    background-image: linear-gradient(to right, var(--cor0),transparent);
+    padding: 0px 0px 10px 0px;
+
+}
+
+h3{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:var(--cor3);
+    font-style: oblique;
+    font-weight: bold;
+    background-image: linear-gradient(to left, var(--cor1),transparent);
+    
+
+}
+
+
+header
+{
+    background-color: white;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;     
+
+
+}
+
+header>p{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-style: oblique;
+    padding: 5px;
+    
+}
+header>h1{
+    text-align: center;
+    padding: 0px 20px;
+
+
+}
+
+header>img{
+    margin: auto;
+    display: block;
+ 
+
+}
+
+
+
+body{
+    background-color: var(--cor3);
+
+}
+
+p.tabela{
+    font-family: sans-serif;
+    font-weight: bold;
+    font-style: oblique;
+
+}
+
+
+main{
+    background-color: var(--cor2);
+    padding: 15px;
+    margin: 15px 60px;
+    border-radius: 15px;
+    margin: auto;
+    max-width: 1000px;
+    min-width: 300px;
+ 
+
+
+}
+
+main>p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+    text-indent: 30px;
+
+}
+
+main>img{
+    margin: auto;
+    display: block;
+    width: 100%;
+
+}
+
+img.icone{
+    width: 10%;
+}
+
+img.construc{
+    width: 50%;
+    
+    
+}
+
+
+article>p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+footer{
+
+    background-color:var(--cor0);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 0.8em;
+    font-style: oblique; 
+
+}
+label
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+#imagem{
+    margin: auto;
+    display: block;
+    width: 50%;
+    
+   
+}
+#imagem2{
+    margin: auto;
+    display: block;
+    width: 50%;
+   
+}
+
+div>p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
